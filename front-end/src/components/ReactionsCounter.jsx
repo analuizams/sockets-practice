@@ -24,7 +24,7 @@ export const ReactionsCounter = (reactICon) => {
 
   return (
     <button onClick={handleClick}>
-    <img src={image} />
+    <img alt='reaction-icon' src={image} />
     <ReactionCount count={count}/>
     </button>
   )
